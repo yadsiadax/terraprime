@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box_model</title>
+    <style>
+        .box {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 15px;
+            color: blue;
+            }
+        .caja {
+            width: 500px;
+            height: 100px;
+            background-color: #1d4ed4; /* Color de fondo */
+            color: white; /* Color del texto */
+            display: flex; /* Para centrar contenido */
+            align-items: center; /* Centrar verticalmente */
+            justify-content: center; /* Centrar horizontalmente */
+            border: 2px solid #ffffff; /* Borde blanco */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+            margin: 20px auto; /* Margen superior e inferior, centrado */
+        
+        }
+        .cajon {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid rgb(98, 0, 255);
+            margin: 15px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(78, 78, 216);
+            }
+            .c{
+            width: 300px;
+           padding: 20px;
+           border: 2px solid #4CAF50;
+           margin: 15px;
+           color: #130a0a; 
+           background-color: #4CAF50;
+           
+        }
+        .d{
+            width: 250px;
+            border: 5px solid blue;
+            background-color: cornflowerblue;
+        }
+        .e{
+            width: 200px;
+            border: 5px solid rgb(10, 95, 59);
+            background-color: rgb(32, 187, 96);
+        }
+        .f{
+            width: 200px;
+            height: 600px;
+            border: 5px solid rgb(203, 204, 134);
+            background-color: rgb(223, 219, 163);
+        }
+        .g{
+            height: 600px;
+            border: 5px solid rgb(203, 204, 134);
+            background-color: rgb(223, 219, 163);  
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="caja">
+        PROGRAMACION WEB
+    
+    </h1>
+
+    <h3 class="cajon">
+        Sección de compra
+    </h3>
+    <img src="Nueva carpeta/gotas de brillo.webp" alt="shampoo revive">
+    <p class="box">
+        gotas de brillo es una shampoo con propiedades Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maiores necessitatibus placeat, obcaecati rem nulla, enim minima quasi similique in voluptatum quidem error quae ab est nobis laboriosam qui quo.
+    </p>
+    <p class="box"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor magni modi repellendus optio, sapiente nesciunt minima deserunt laborum, quo fugit dolorem aliquam! Obcaecati commodi quis, dolorem cum quam odio recusandae.
+    </p>
+    <p class="caja">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, repudiandae eaque. Enim magnam minima eius eos temporibus possimus minus aspernatur numquam. Nihil, magnam. Vero magnam excepturi neque aut odio accusamus?
+    </p>
+    <p class="c">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis reprehenderit amet quidem fuga quo ut accusantium repudiandae quas consequuntur tenetur totam nemo esse harum, animi provident ipsum qui at voluptatem.
+    </p>
+    <p class="d">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus alias fuga unde perspiciatis error vero ratione facere labore laborum! Veritatis nobis non, sint exercitationem tempore eaque esse laboriosam nemo quod.
+    </p>
+    <p class="e">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id illum placeat praesentium nostrum cumque. Nemo dolores similique hic rerum fugiat quasi minima omnis, sequi id veritatis, at nostrum ad quidem?
+    </p>
+    <p class="f">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis magni voluptatibus dignissimos velit inventore fugiat maxime quisquam voluptatum non ullam soluta placeat assumenda, laboriosam molestias voluptates voluptate dicta amet!
+    </p>
+    <p class="g">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore inventore porro aliquam voluptatem animi perspiciatis facere cumque architecto similique. Quis fugit sunt quos beatae et sit consequuntur. Soluta, aspernatur ea!
+    </p>
+</body>
+</html>
